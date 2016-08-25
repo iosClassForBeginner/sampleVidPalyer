@@ -7,15 +7,27 @@
 //
 
 import UIKit
+import MediaPlayer
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
+    @IBAction func playVid(sender: AnyObject)
+    {
+        let path = NSBundle.mainBundle().pathForResource("dog", ofType: "mp4")
+        let url = NSURL.fileURLWithPath(path!)
+        
+        let player = MPMoviePlayerViewController(contentURL: url)
+        player.moviePlayer.fullscreen = true
+        self.presentMoviePlayerViewControllerAnimated(player)
+    }
+    
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }

@@ -15,6 +15,10 @@
 		041C537C1C93989B00F7C659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C537A1C93989B00F7C659 /* LaunchScreen.storyboard */; };
 		041C53871C93989B00F7C659 /* sampleVidPalyerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C53861C93989B00F7C659 /* sampleVidPalyerTests.swift */; };
 		041C53921C93989B00F7C659 /* sampleVidPalyerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041C53911C93989B00F7C659 /* sampleVidPalyerUITests.swift */; };
+		0496DCF11D5F056900D92AA8 /* dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0496DCED1D5F056900D92AA8 /* dog.jpeg */; };
+		0496DCF21D5F056900D92AA8 /* dog.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0496DCEE1D5F056900D92AA8 /* dog.mp4 */; };
+		0496DCF31D5F056900D92AA8 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 0496DCEF1D5F056900D92AA8 /* img.png */; };
+		0496DCF41D5F056900D92AA8 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 0496DCF01D5F056900D92AA8 /* play.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		041C538D1C93989B00F7C659 /* sampleVidPalyerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleVidPalyerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041C53911C93989B00F7C659 /* sampleVidPalyerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleVidPalyerUITests.swift; sourceTree = "<group>"; };
 		041C53931C93989B00F7C659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0496DCED1D5F056900D92AA8 /* dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpeg; sourceTree = "<group>"; };
+		0496DCEE1D5F056900D92AA8 /* dog.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dog.mp4; sourceTree = "<group>"; };
+		0496DCEF1D5F056900D92AA8 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+		0496DCF01D5F056900D92AA8 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		041C53621C93989A00F7C659 = {
 			isa = PBXGroup;
 			children = (
+				0496DCEC1D5F056900D92AA8 /* Assets */,
 				041C536D1C93989B00F7C659 /* sampleVidPalyer */,
 				041C53851C93989B00F7C659 /* sampleVidPalyerTests */,
 				041C53901C93989B00F7C659 /* sampleVidPalyerUITests */,
@@ -126,6 +135,17 @@
 				041C53931C93989B00F7C659 /* Info.plist */,
 			);
 			path = sampleVidPalyerUITests;
+			sourceTree = "<group>";
+		};
+		0496DCEC1D5F056900D92AA8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0496DCED1D5F056900D92AA8 /* dog.jpeg */,
+				0496DCEE1D5F056900D92AA8 /* dog.mp4 */,
+				0496DCEF1D5F056900D92AA8 /* img.png */,
+				0496DCF01D5F056900D92AA8 /* play.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +252,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0496DCF41D5F056900D92AA8 /* play.png in Resources */,
+				0496DCF21D5F056900D92AA8 /* dog.mp4 in Resources */,
 				041C537C1C93989B00F7C659 /* LaunchScreen.storyboard in Resources */,
 				041C53791C93989B00F7C659 /* Assets.xcassets in Resources */,
+				0496DCF31D5F056900D92AA8 /* img.png in Resources */,
+				0496DCF11D5F056900D92AA8 /* dog.jpeg in Resources */,
 				041C53741C93989B00F7C659 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,6 +512,7 @@
 				041C53981C93989B00F7C659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041C53991C93989B00F7C659 /* Build configuration list for PBXNativeTarget "sampleVidPalyerTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +521,7 @@
 				041C539B1C93989B00F7C659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		041C539C1C93989B00F7C659 /* Build configuration list for PBXNativeTarget "sampleVidPalyerUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +530,7 @@
 				041C539E1C93989B00F7C659 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
